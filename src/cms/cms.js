@@ -8,7 +8,7 @@ import ProductPagePreview from './preview-templates/ProductPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 import { CustomWidgetControl } from '../components/customWidget';
 
-CMS.registerWidget('ckeditor', CustomWidgetControl, BlogPostPreview);
+CMS.registerWidget('ckeditor', CustomWidgetControl);
 
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
