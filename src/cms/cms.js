@@ -6,7 +6,8 @@ import AboutPagePreview from './preview-templates/AboutPagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
 import ProductPagePreview from './preview-templates/ProductPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
-import { CustomWidgetControl, CustomWidgetPreview } from '../components/customWidget';
+import { CustomWidgetControl } from '../components/customWidget';
+import { CustomWidgetPreview } from '../components/Content'
 
 CMS.registerWidget('ckeditor', CustomWidgetControl, CustomWidgetPreview);
 
