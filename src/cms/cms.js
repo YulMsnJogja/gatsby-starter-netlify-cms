@@ -11,7 +11,7 @@ import ckeditor from 'netlify-cms-widget-ckeditor'
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
 
-CMS.registerWidget('ckeditor', CkeditorControl, CkeditorPreview)
+CMS.registerWidget(ckeditor, CkeditorControl, CkeditorPreview)
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
